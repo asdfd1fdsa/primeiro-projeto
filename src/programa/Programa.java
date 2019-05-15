@@ -1,6 +1,8 @@
 
 package programa;
 
+//@author D1350
+
 import entidades.Triangulo;
 import java.util.Locale;
 import java.util.Scanner;
@@ -16,7 +18,7 @@ public class Programa {
         y = new Triangulo();
         
         
-        System.out.println("Digite a medida do triangulo: ");
+        System.out.println("Digite a medida do triangulo X: ");
         x.a = sc.nextDouble();
         x.b = sc.nextDouble();
         x.c = sc.nextDouble();
